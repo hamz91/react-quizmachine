@@ -1,3 +1,22 @@
+INSTALLATION AND INFORMATION FROM HAMZAH -
+
+Run npm install once you have forked and cloned the repo. This will install the required dependencies.
+
+Make sure the port number within the server.js file is open. Change if needed but make sure you restart the server by running the command node server.js.
+
+Open your browser, then open local host using the matching port number from the server.js file.
+
+At the moment, only the "potato" route is working as intended, the other two routes have been left until I can implement more redux functionality in order to avoid duplicate code.
+
+Using a 3rd party API, I have fetched questions and stored the data in the redux store. I have then assigned the answers to an array of HTML buttons before shuffling and using the .map() method to assign them within the JSX. A score is also kept in local state using React, with highscores being stored and displayed also.
+
+
+
+
+
+
+
+
 # Quiz machine
 
 For this weekend weekend project we will create a quiz app. Please implement features from the set below.
